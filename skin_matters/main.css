@@ -18,8 +18,8 @@ body {
   background-color: rgb(211, 194, 212);
 }
 body {
-  color: #fff;
   text-align: center;
+  color: #fff;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 h3 {
@@ -45,9 +45,18 @@ h3 {
   padding: 30px;
 }
 /* Header */
-.masthead-brand {
+.masthead-header {
   margin-top: 10px;
   margin-bottom: 10px;
+  /*padding: 0px;*/
+}
+
+.masthead-brand>img {
+  text-align: left;
+  margin-left: 50px;
+  height: 100%;
+  padding: 15px;
+  width: auto;
 }
 
 .cover {
